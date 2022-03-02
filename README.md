@@ -1,3 +1,6 @@
+# Finance-Follower fetches data from the coinGecko API. The fetch requests require no API key and are limited to ~100 requests per second. This app has not yet been build with scalability in mind and is currently still in it's early development stage.
+
+## Basic React related information
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
