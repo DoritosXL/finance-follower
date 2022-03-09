@@ -1,28 +1,27 @@
 import React from "react";
 import "./App.css";
-import { CryptoContainer } from "./components/CryptoContainer";
+import { CryptoContainer } from "./components/cryptoContainer/index";
 
-import Box from "@mui/material/Box";
-import Paper from "@mui/material/Paper";
+import ParticleWrapper from "./components/Particles";
+
+import logo from "./components/img/logo.png"
+import titano from "./components/img/titano.png"
+import libero from "./components/img/libero.png"
+import fino from "./components/img/fino.png"
 
 function App() {
   return (
     <div className="App">
-      <div className="left">
-        <p>*Token logo*</p>
-        <p>Libero Finance</p>
-        <CryptoContainer token={"libero-financial"} />
+      <div className="container">
+        {/* <div className="left">
+          <CryptoContainer token={"libero-financial"} img={libero} />
+        </div> */}
+        <CryptoContainer token={"quantic"} img={logo} />
+        <CryptoContainer token={"titano"} img={titano} />
+        <CryptoContainer token={"fino-dao"} img={fino} />
       </div>
-      <div className="center">
-        <p>*Token logo*</p>
-        <p>Titano Finance</p>
-        <CryptoContainer token={"titano"} />
-      </div>
-      <div className="right">      
-        <p>*Token logo*</p>
-        <p>Fino Dao Finance</p>
-        <CryptoContainer token={"fino-dao"} />
-      </div>
+      <ParticleWrapper  />
+      
     </div>
   );
 }

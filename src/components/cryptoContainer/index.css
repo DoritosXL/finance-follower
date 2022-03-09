@@ -1,0 +1,60 @@
+.crypto_container {
+  z-index: 1;
+  backdrop-filter: blur(5px);
+  background: linear-gradient(#e7e7e76b, #ffffff18);
+  border-radius: 5px;
+  box-shadow: 5px 6px 35px #2b2b2b;
+  display: flex;
+  width: 250px;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+}
+
+.logo {
+  /* display: grid; */
+  /* grid-template-columns: auto 50px auto; */
+  /* grid-template-columns: 1fr; */
+  width: 60px;
+  height: 60px;
+}
+
+.details_wrapper {
+  /* name */
+  /* tfhc */
+  /* price */
+  width: 100%;
+  
+}
+
+.details_name_tfhc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.current_price {
+  text-align: left;
+}
+
+.name {
+  color: beige;
+}
+
+.current_price {
+  font-size: x-large;
+  font-weight: 700;
+  color: beige;
+} 
+
+.twenty_four_hr_change {
+  text-align: right;
+  font-size: small;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
