@@ -12,19 +12,12 @@
 }
 
 .logo {
-  /* display: grid; */
-  /* grid-template-columns: auto 50px auto; */
-  /* grid-template-columns: 1fr; */
   width: 60px;
   height: 60px;
 }
 
 .details_wrapper {
-  /* name */
-  /* tfhc */
-  /* price */
-  width: 100%;
-  
+  width: 100%;  
 }
 
 .details_name_tfhc {
@@ -52,9 +45,9 @@
 }
 
 .green {
-  color: green;
+  color: #64cc19;
 }
 
 .red {
-  color: red;
+  color: #be3c2e;
 }

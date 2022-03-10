@@ -1,10 +1,9 @@
-import React from "react";
 import "./App.css";
 import { CryptoContainer } from "./components/cryptoContainer/index";
 
 import ParticleWrapper from "./components/Particles";
 
-import logo from "./components/img/logo.png"
+// import logo from "./components/img/logo.png"
 import titano from "./components/img/titano.png"
 import libero from "./components/img/libero.png"
 import fino from "./components/img/fino.png"
@@ -19,8 +18,7 @@ function App() {
         <CryptoContainer token={"libero-financial"} img={libero} />
         <CryptoContainer token={"fino-dao"} img={fino} />
       </div>
-      <ParticleWrapper  />
-      
+      <ParticleWrapper  />      
     </div>
   );
 }

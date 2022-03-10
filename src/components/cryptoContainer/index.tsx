@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import axios from "axios";
 
 import "./index.css";
@@ -47,36 +47,6 @@ export const CryptoContainer = ({ token, img }: crypto) => {
     }
   }, [timer, token]);
 
-  const showTFHCNumber = () => {
-    if (twentyfourhrChange > 0) {
-      return (
-        <div className="twenty_four_hr_change_green">
-          {twentyfourhrChange.toFixed(2)}%
-        </div>
-      );
-    } else if (twentyfourhrChange < 0) {
-      return (
-        <div className="twenty_four_hr_change_red">
-          {twentyfourhrChange.toFixed(2)}%
-        </div>
-      );
-    }
-    return "😐";
-  };
-
-  const showTFHC = () => {
-    if (twentyfourhrChange > 0) {
-      return "😎";
-    } else if (twentyfourhrChange < 0) {
-      return "😞";
-    }
-    return "😐";
-  };
-
-  const showMessage = () => {
-    return message;
-  };
-
   return (
     <div className="crypto_container">
       <img className="logo" src={img} alt="logo" />
@@ -87,17 +57,8 @@ export const CryptoContainer = ({ token, img }: crypto) => {
             {twentyfourhrChange.toFixed(2)}%
           </div>
         </div>
-
         <div className="current_price">${currentPrice.toFixed(7)}</div>
       </div>
-
-      {/* {showTFHCNumber()} */}
-
-      {/* <p>Nieuwe fetch in: {timer}...</p> */}
-      {/* <p>Current price of {token}: ${currentPrice.toFixed(7)}</p> */}
-      {/* <p>Change in the last 24H: {twentyfourhrChange.toFixed(2)}%</p> */}
-      {/* <p>{showTFHC()}</p> */}
-      {/* <p>{message}</p> */}
     </div>
   );
 };
