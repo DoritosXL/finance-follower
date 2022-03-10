@@ -10,7 +10,7 @@ html, body, #root, .App, .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   flex-flow: row;
-  gap: 100px;
+  gap: 69px;
   align-items: center;
   justify-content: center;
   justify-items: center;
@@ -42,7 +42,7 @@ html, body, #root, .App, .container {
 
 @media screen and (max-width: 1100px) {
   .container {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;    
   }
 }
 
