@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/finance-follower/static/css/main.bdcb0d6a.css",
-    "main.js": "/finance-follower/static/js/main.a53a836c.js",
-    "static/js/415.cbe6cd37.chunk.js": "/finance-follower/static/js/415.cbe6cd37.chunk.js",
-    "static/js/787.55c39049.chunk.js": "/finance-follower/static/js/787.55c39049.chunk.js",
-    "static/media/titano.png": "/finance-follower/static/media/titano.f6f261f8c4b5c0ec4a7f.png",
-    "index.html": "/finance-follower/index.html",
-    "main.bdcb0d6a.css.map": "/finance-follower/static/css/main.bdcb0d6a.css.map",
-    "main.a53a836c.js.map": "/finance-follower/static/js/main.a53a836c.js.map",
-    "415.cbe6cd37.chunk.js.map": "/finance-follower/static/js/415.cbe6cd37.chunk.js.map",
-    "787.55c39049.chunk.js.map": "/finance-follower/static/js/787.55c39049.chunk.js.map"
+    "main.css": "/static/css/main.bdcb0d6a.css",
+    "main.js": "/static/js/main.8f21f15e.js",
+    "static/js/415.cbe6cd37.chunk.js": "/static/js/415.cbe6cd37.chunk.js",
+    "static/js/787.55c39049.chunk.js": "/static/js/787.55c39049.chunk.js",
+    "static/media/titano.png": "/static/media/titano.f6f261f8c4b5c0ec4a7f.png",
+    "index.html": "/index.html",
+    "main.bdcb0d6a.css.map": "/static/css/main.bdcb0d6a.css.map",
+    "main.8f21f15e.js.map": "/static/js/main.8f21f15e.js.map",
+    "415.cbe6cd37.chunk.js.map": "/static/js/415.cbe6cd37.chunk.js.map",
+    "787.55c39049.chunk.js.map": "/static/js/787.55c39049.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bdcb0d6a.css",
-    "static/js/main.a53a836c.js"
+    "static/js/main.8f21f15e.js"
   ]
 }
